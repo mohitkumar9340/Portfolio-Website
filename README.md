@@ -1,82 +1,113 @@
-<h2 align="center">
-  Portfolio Website - v2.0<br/>
-  <a href="https://github.com/mohitkumar9340" target="_blank">Mohit Kumar</a>
-</h2>
 <div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
+  <br/>
+  <img src="https://img.shields.io/github/stars/mohitkumar9340/Portfolio?style=for-the-badge&logo=github&color=22d3ee" alt="stars" />
+  <img src="https://img.shields.io/github/forks/mohitkumar9340/Portfolio?style=for-the-badge&logo=github&color=22d3ee" alt="forks" />
+  <img src="https://img.shields.io/github/license/mohitkumar9340/Portfolio?style=for-the-badge&color=22d3ee" alt="license" />
 </div>
 
-<br/>
+<h1 align="center">
+  Portfolio Website — <a href="https://github.com/mohitkumar9340" target="_blank">Mohit Kumar</a>
+</h1>
 
-<center>
+<p align="center">
+  Personal portfolio built with React 19, Vite, and Tailwind CSS v4. Features project showcases, coding profile stats, experience timeline, and a contact form.
+</p>
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-![GitHub Repo stars](https://img.shields.io/github/stars/mohitkumar9340/Portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
-![GitHub forks](https://img.shields.io/github/forks/mohitkumar9340/Portfolio?color=red&logo=github&style=for-the-badge)
+---
 
-</center>
+## ✨ Features
 
-<h3 align="center">
-    🔹
-    <a href="https://github.com/mohitkumar9340/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
-    🔹
-    <a href="https://github.com/mohitkumar9340/Portfolio/issues">Request Feature</a>
-</h3>
+| | |
+|---|---|
+| **📖 Multi-Page Layout** | Home, About, Experience, Projects, Resume, Contact |
+| **🎨 Tailwind CSS v4** | Custom cyan/purple theme, dark mode, responsive design |
+| **📱 Fully Responsive** | Mobile-first with adaptive grid and collapsible nav |
+| **📊 Coding Profiles** | Live LeetCode & GFG stats with difficulty breakdown |
+| **📄 Resume Viewer** | Embedded PDF with annotation layers + download |
+| **✉️ Contact Form** | Web3Forms integration with backend delivery |
+| **✨ Particle Effects** | Lightweight tsparticles animated background |
+| **⌨️ Typewriter Effect** | Animated role/text rotation on home page |
 
-## TL;DR
+## 🛠 Tech Stack
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [mohitkumar9340](https://github.com/mohitkumar9340/Portfolio). Thanks!
+**Frontend** — React 19, Vite 8, React Router v6, Tailwind CSS v4  
+**Libraries** — tsparticles, react-pdf, react-github-calendar, react-parallax-tilt, typewriter-effect  
+**Fonts** — Sora (body), Unbounded (headings), JetBrains Mono (code)  
+**Deployment** — Vercel
 
-## Built With
+## 🚀 Getting Started
 
-My personal portfolio featuring my projects, experience, coding profiles, and technical skills.<br/>
+```bash
+git clone https://github.com/mohitkumar9340/Portfolio.git
+cd Portfolio
+npm install
+npm run dev
+```
 
-This project was built using these technologies.
+Open [http://localhost:5173](http://localhost:5173) in your browser.
 
-- React 19
-- Vite
-- Tailwind CSS v4
-- React Router v6
-- tsparticles
-- react-pdf
-- Web3Forms
-- Vercel
+### Environment Variables
 
-## Features
+For the contact form, create a `.env` file:
 
-**📖 Multi-Page Layout** — Home, About, Experience, Projects, Resume, Contact
+```env
+VITE_WEB3FORMS_KEY=your_web3forms_key
+```
 
-**🎨 Styled with Tailwind CSS v4** — Custom theme tokens, dark theme, responsive design
+## 📁 Project Structure
 
-**📱 Fully Responsive** — Mobile-first layout with adaptive grid and navigation
+```
+src/
+├── Assets/           # Images, icons, PDFs
+├── components/
+│   ├── About/        # About page, skills, tools, coding profiles
+│   ├── Contact/      # Contact form with Web3Forms
+│   ├── Experience/   # Work & education timeline
+│   ├── Home/         # Hero section, typewriter, social links
+│   ├── Projects/     # Project cards with GitHub links
+│   └── Resume/       # PDF viewer
+│   ├── Footer.jsx
+│   ├── Navbar.jsx
+│   ├── Particle.jsx
+│   ├── Pre.jsx
+│   └── ScrollToTop.js
+├── App.jsx           # Routes
+├── index.css         # Tailwind + custom theme
+└── main.jsx          # Entry point
+```
 
-**📊 Coding Profiles** — LeetCode and GFG stats with live API integration
+## 📄 Pages
 
-**📄 Resume Viewer** — Embedded PDF with download option
+| Route | Page |
+|---|---|
+| `/` | Home — intro, typewriter, social links |
+| `/about` | About — bio, skills, tools, coding profiles |
+| `/experience` | Experience — work history & education timeline |
+| `/project` | Projects — project cards with GitHub links |
+| `/resume` | Resume — embedded PDF viewer |
+| `/contact` | Contact — form, info sidebar, social links |
 
-## Getting Started
+## 🎨 Customization
 
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
+Edit component files under `src/components/` to personalize content, projects, experience, and resume.
 
-## 🛠 Installation and Setup Instructions
+- **Resume PDF** — Replace `src/Assets/Mohit_Kumar.pdf`
+- **Profile image** — Replace `src/Assets/avatar.svg`
+- **Project data** — Edit `src/components/Projects/Projects.jsx`
+- **Experience** — Edit `src/components/Experience/Experience.jsx`
+- **Theme colors** — Edit `--color-purple-accent` in `src/index.css`
 
-1. Installation: `npm install`
+## 📄 License
 
-2. In the project directory, you can run: `npm run dev`
+This project is open source and available under the MIT License.
 
-Runs the app in the development mode.\
-Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
-The page will reload if you make edits.
+---
 
-## Usage Instructions
-
-Open the project folder and Navigate to `/src/components/`. <br/>
-You will find all the components used and you can edit your information accordingly.
-
-### Show your support
-
-Give a ⭐ if you like this website!
-
-<a href="https://github.com/mohitkumar9340" target="_blank">GitHub Profile</a>
+<div align="center">
+  <p>Built with ❤️ by <a href="https://github.com/mohitkumar9340" target="_blank">Mohit Kumar</a></p>
+  <p>⭐ Star this repo if you find it useful!</p>
+</div>
