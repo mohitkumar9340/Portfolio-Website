@@ -86,7 +86,7 @@ function NavBar() {
             </li>
             <li>
               <a
-                href="https://github.com/mohitkumar9340/Portfolio"
+                href="https://github.com/mohitkumar9340/Portfolio-Website"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 rounded-md border border-purple-accent/60 bg-purple-accent/20 px-3 py-2 text-white transition hover:-translate-y-0.5 hover:bg-purple-accent/30"

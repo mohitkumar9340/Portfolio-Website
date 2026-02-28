@@ -4,9 +4,9 @@
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
   <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
   <br/>
-  <img src="https://img.shields.io/github/stars/mohitkumar9340/Portfolio?style=for-the-badge&logo=github&color=22d3ee" alt="stars" />
-  <img src="https://img.shields.io/github/forks/mohitkumar9340/Portfolio?style=for-the-badge&logo=github&color=22d3ee" alt="forks" />
-  <img src="https://img.shields.io/github/license/mohitkumar9340/Portfolio?style=for-the-badge&color=22d3ee" alt="license" />
+  <img src="https://img.shields.io/github/stars/mohitkumar9340/Portfolio-Website?style=for-the-badge&logo=github&color=22d3ee" alt="stars" />
+  <img src="https://img.shields.io/github/forks/mohitkumar9340/Portfolio-Website?style=for-the-badge&logo=github&color=22d3ee" alt="forks" />
+  <img src="https://img.shields.io/github/license/mohitkumar9340/Portfolio-Website?style=for-the-badge&color=22d3ee" alt="license" />
 </div>
 
 <h1 align="center">
@@ -42,8 +42,8 @@
 ## 🚀 Getting Started
 
 ```bash
-git clone https://github.com/mohitkumar9340/Portfolio.git
-cd Portfolio
+git clone https://github.com/mohitkumar9340/Portfolio-Website.git
+cd Portfolio-Website
 npm install
 npm run dev
 ```
