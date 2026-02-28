@@ -31,24 +31,30 @@ You can fork this repo to modify and make changes of your own. Please give me pr
 
 ## Built With
 
-My personal portfolio which features some of my github projects as well as my resume and technical skills.<br/>
+My personal portfolio featuring my projects, experience, coding profiles, and technical skills.<br/>
 
 This project was built using these technologies.
 
-- React.js
-- Node.js
-- Express.js
-- CSS3
-- VsCode
+- React 19
+- Vite
+- Tailwind CSS v4
+- React Router v6
+- tsparticles
+- react-pdf
+- Web3Forms
 - Vercel
 
 ## Features
 
-**📖 Multi-Page Layout**
+**📖 Multi-Page Layout** — Home, About, Experience, Projects, Resume, Contact
 
-**🎨 Styled with Tailwind CSS and custom theme tokens**
+**🎨 Styled with Tailwind CSS v4** — Custom theme tokens, dark theme, responsive design
 
-**📱 Fully Responsive**
+**📱 Fully Responsive** — Mobile-first layout with adaptive grid and navigation
+
+**📊 Coding Profiles** — LeetCode and GFG stats with live API integration
+
+**📄 Resume Viewer** — Embedded PDF with download option
 
 ## Getting Started
 
